@@ -14,7 +14,8 @@ const Hardware = () => {
     return (
         <div>
             <h1><strong>HARDWARE</strong></h1>
-            <br></br><br></br>
+            <p>This section discusses the hardware behind the project.</p>
+            <br></br>
             <h2>-Selecting the Hardware-</h2>
             <br></br>
             <p>
