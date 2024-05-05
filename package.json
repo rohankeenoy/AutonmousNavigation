@@ -1,7 +1,7 @@
 {
   "name": "auto-car",
   "version": "0.1.0",
-  "homepage": "https://rohankeenoy.github.io/auto-car",
+  "homepage": "http://rohankeenoy.github.io/auto-car",
   "private": false,
   "dependencies": {
     "@emotion/react": "^11.11.4",
