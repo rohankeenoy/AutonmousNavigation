@@ -42,5 +42,15 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  },
+  "homepage": "https://rohankeenoy.github.io/auto-car",
+  "scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
   }
 }
+
+

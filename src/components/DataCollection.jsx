@@ -32,6 +32,16 @@ const DataCollection = () =>{
                 -Creating Masks-
             </h2>
             <br></br>
+            <p>
+                Masks were created on my laptop within google colab. I used openCV2 to create the masks. The images were first converted to grayscale using COLOR_BGR2GRAY. This makes it easier for the Canny function to pick out the edges by reducing noise.
+                Typically a 5x5 Gaussian filter is used before, but I found that it picks up more details in the background than on the track itself. Another problem is that the edges on the tape were often blurry, this added a lot of noise for the canny function to figure out.
+                The canny function itsself finds intensity on the image using an edge gradient. Gradient direction is always perpendicular to the edges. The end result is a binary image with thin edges. 
+
+                Hysteresis Thresholding in the canny function takes in two values; a min and a max. The minValues are sure to be non edges and are discarded, edges above the max value in the intensity gradient are for sure edges. I did some experimenting on it, and lowering the lower threshold to around 45 and the upper one to abut 120 seemed to make it most sensitive to 
+                the tape. I struggled with picking up background noise in the masks, but these values seemed to minimize it for the most part. There are still edges in the background clutter of the garage that show up, which possibly threw off my data. These masks are as good as it gets without reprogramming the hardware to constantly look down 
+                or be in a less noisey garage. We rolled with the punches and experimented here, but a decent portion of the masks turned out okay. A solution would be to brute force by hand truth masks or have some sort of stability measurement for when to take a picture.
+                
+            </p>
         </div>
     )
 }
