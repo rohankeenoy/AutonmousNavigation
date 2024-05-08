@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/auto-car/static/css/main.904ef8fb.css",
-    "main.js": "/auto-car/static/js/main.5af4954d.js",
+    "main.js": "/auto-car/static/js/main.bc38906a.js",
     "static/media/track1.jpg": "/auto-car/static/media/track1.eab776acd52e5bfa9953.jpg",
     "static/media/hardware_4.jpg": "/auto-car/static/media/hardware_4.48ab392da684cd9b150a.jpg",
     "static/media/hardware_5.jpg": "/auto-car/static/media/hardware_5.9fb358fa100ecb5cc8de.jpg",
@@ -16,6 +16,21 @@
     "static/media/model3_plot.png": "/auto-car/static/media/model3_plot.7c8dc3ff4437bf739e73.png",
     "static/media/modelMask1_plot.png": "/auto-car/static/media/modelMask1_plot.d75df6b87a125f928aa9.png",
     "static/media/model1_plot.png": "/auto-car/static/media/model1_plot.1476b7543720da19c04a.png",
+    "static/media/mask1Acc.JPG": "/auto-car/static/media/mask1Acc.a287c5a7a09f735ae9af.JPG",
+    "static/media/mask2Acc.JPG": "/auto-car/static/media/mask2Acc.ffd4ca5e3357d89a412c.JPG",
+    "static/media/model1Accuracy.JPG": "/auto-car/static/media/model1Accuracy.46128c29ad81403631ec.JPG",
+    "static/media/model2Accuracy.JPG": "/auto-car/static/media/model2Accuracy.5491668b3b4903223bed.JPG",
+    "static/media/model3Acc.JPG": "/auto-car/static/media/model3Acc.2fda74cdfbfaa8d4b362.JPG",
+    "static/media/model2Loss.JPG": "/auto-car/static/media/model2Loss.f692623828031174a9bd.JPG",
+    "static/media/model1Loss.JPG": "/auto-car/static/media/model1Loss.98778cae48e98c7c2eeb.JPG",
+    "static/media/mask2Loss.JPG": "/auto-car/static/media/mask2Loss.b96498be4e72f4d02a0c.JPG",
+    "static/media/mask1Loss.JPG": "/auto-car/static/media/mask1Loss.6876072ebee9ba940be9.JPG",
+    "static/media/model3Loss.JPG": "/auto-car/static/media/model3Loss.cfd665111e668514fe7c.JPG",
+    "static/media/model3Metrics.JPG": "/auto-car/static/media/model3Metrics.673924d6dfa2f9517f80.JPG",
+    "static/media/model1PerformanceMetrics.JPG": "/auto-car/static/media/model1PerformanceMetrics.fcab65b92ff8a90b6683.JPG",
+    "static/media/mask2Metrics.JPG": "/auto-car/static/media/mask2Metrics.bb4966a3e355f8d47b3b.JPG",
+    "static/media/masks1Metrics.JPG": "/auto-car/static/media/masks1Metrics.54bd7dd073a030b141f2.JPG",
+    "static/media/model2Metrics.JPG": "/auto-car/static/media/model2Metrics.eac18bf24bdb934b4fdf.JPG",
     "static/media/augBrighter.JPG": "/auto-car/static/media/augBrighter.fb8e35010703605338db.JPG",
     "static/media/augFlipped.JPG": "/auto-car/static/media/augFlipped.bd3bb698851d6dfb6b91.JPG",
     "static/media/aug_og.JPG": "/auto-car/static/media/aug_og.eef1c8d8627059559a93.JPG",
@@ -36,10 +51,10 @@
     "static/media/mask_1.JPG": "/auto-car/static/media/mask_1.0cf9e17489db370bf8ca.JPG",
     "index.html": "/auto-car/index.html",
     "main.904ef8fb.css.map": "/auto-car/static/css/main.904ef8fb.css.map",
-    "main.5af4954d.js.map": "/auto-car/static/js/main.5af4954d.js.map"
+    "main.bc38906a.js.map": "/auto-car/static/js/main.bc38906a.js.map"
   },
   "entrypoints": [
     "static/css/main.904ef8fb.css",
-    "static/js/main.5af4954d.js"
+    "static/js/main.bc38906a.js"
   ]
 }
