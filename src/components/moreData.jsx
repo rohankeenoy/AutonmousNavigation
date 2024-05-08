@@ -15,7 +15,7 @@ const MoreData = () => {
         <div>
             <h1> Stohcastic Augmentation and Regularization Methods</h1>
             <p>This section covers augmentation techniques and why different regulaization were applied to the model.</p>
-            <h2>-Stohcastic Augmentation-</h2>
+            <h2><u>-Stohcastic Augmentation</u>-</h2>
             <br></br>
             <p>Augmentations methods were used from the iaa library, using the augementers method. Typically when working with keras there are built in functions that are easily callable, but those functions will gurantee that 
                 the augmentation will be applied, with the only randomness being how extreme the augmentation is. I wanted to ensure a totally random augmentation process. The way it works is it cycles through the data set and there is a 
@@ -44,7 +44,7 @@ const MoreData = () => {
             </code>
             </pre>
             <br></br>
-            <h2>-Augmenter Functions-</h2>
+            <h2><u>-Augmenter Functions-</u></h2>
             <br></br>
             <p>The augmenter functions themselves have zoom, brightness, and horizontal flip opperations. The reason for choosing only these two were because the image would end up with several null values or zero values when applying a pan for example. I did not see this being a real world issue and thought it was not worth having images that have a bunch of empty space for this project.
                 All functions take in and return a single image. The images sent in are indexed from the driver function and when the 3 functions return they are appeneded to a temporary array to then be concatenated to the images array.
@@ -97,10 +97,9 @@ const MoreData = () => {
                     <img alt="sample_file" src={URL} key={index}  style={{ maxHeight: '400px', maxWidth: '300px'}}  />
                 </div>
                 ))}
-            </Carousel>
+            </Carousel>   
 
-            
-            <h2>-Regularization-</h2>
+        <hr></hr>
         </div>
     )
 }

@@ -16,7 +16,7 @@ const Hardware = () => {
             <h1><strong>HARDWARE</strong></h1>
             <p>This section discusses the hardware behind the project.</p>
             <br></br>
-            <h2>-Selecting the Hardware-</h2>
+            <h2><u>-Selecting the Hardware-</u></h2>
             <br></br>
             <p>
                 There was deep consideration on the hardware to use with the pi's gpio pin outs. This project could be done very cheaply with an RC car you may already have, a raspberry pi camera or camera laying around, and a breadboard.
@@ -25,9 +25,9 @@ const Hardware = () => {
                 What made it a better deal was it included ultrasonic and grayscale sensors along with the camera. I had my own raspberry pi 4b from a previous project. Down the road, adding data for these can help deep learning algorithms learn better patterns about their environments.
             </p>
             <br></br>
-            <img src={hardware1} alt="Hardware 1" style={{ width:'400px', height: '500px' }} />
+            <img src={hardware1} alt="Hardware 1" style={{ width:'300px', height: '400px' }} />
            <br></br>
-            <h2> -Assembly- </h2>
+            <h2> <u>-Assembly-</u> </h2>
             <br></br>
             <p>
                 Documentation made assembling the car rather painless. Nothing is ever completely smooth though - I ran into an issue where I had installed the panning servo motor on the car incorrectly. This cost me about an hour
@@ -46,7 +46,7 @@ const Hardware = () => {
             </Carousel>
         </div>
         <br></br>
-            <h2>-Flashing the OS and installing Dependcies-</h2>
+            <h2><u>-Flashing the OS and installing Dependcies-</u></h2>
             <br></br>
             <p>This is where I encountered severe issues. The working OS is Debian Bookworm. It is a flavor of linux that is based off of ubuntu. However, when first jumping in I ran into several issues. When I was getting started I installed a 32 bit OS and quickly discovered my mistake when installing tensorflow (at this point it is needed for the camera). I had then installed bookworm, a 64 bit recent pi os. I pulled the depenedcies from sunfounder for the hat to work with my pi. 
                 I had issues with python dependencies because of how the files were formatted. The files were moved and then I ran out of memory. Since they were moved and not copied, I am not sure why I ran out of memory. Issues with this were due to how my working directory was set up. Once I fixed it, I went to bed. When I woke up the pi no longer connect to my network. I tried connecting it with an ethernet cable and then sshing, but it still had issues. I ended up having to reflash it again and go through the same process.

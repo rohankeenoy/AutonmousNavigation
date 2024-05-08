@@ -4,14 +4,23 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Home from './containers/Home';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
+const App = () => {
+
+
+  return (
     <Router>
-      <Routes> {/* Wrap your routes with Routes */}
-        <Route path="/" element={<Home />} /> 
-        
+      
+      <Routes>
+        <Route path="/auto-car" element={<Home />} />
+      
       </Routes>
     </Router>
-  </React.StrictMode>
+  );
+};
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
 );

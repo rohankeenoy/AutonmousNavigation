@@ -33,7 +33,7 @@ const DataCollection = () =>{
             <p>This section covers how data was captured, annotated, and how masks were created. </p>
             <br></br>
             <h2>
-                -Data Methodologies-
+                <u>-Data Methodologies-</u>
             </h2>
             <br></br>
             <p> Data Collection was done locally on the pi. Everytime the pi turns, the camera is programmed to turn to the same angle as the steering. It also looks down -15 degrees. The reason the looking down was implemented is so that the camera would be able to pick up the lines on the left/right side of it and not focus too much on the outside lines. The steering servo was set up to steer at 30 degrees (right) or -30 degree (left).
@@ -54,7 +54,7 @@ const DataCollection = () =>{
                 ))}
             </Carousel>
             <h2>
-                -Data Annotation-
+                <u>-Data Annotation-</u>
             </h2>
             <br></br>
             <p>
@@ -73,7 +73,7 @@ const DataCollection = () =>{
                 ))}
             </Carousel>
             <h2>
-                -Creating Masks-
+                <u>-Creating Masks-</u>
             </h2>
             <br></br>
             <p>
@@ -124,6 +124,25 @@ const DataCollection = () =>{
                 </div>
                 ))}
             </Carousel>
+
+            <h2><u>Futher Data Methods</u></h2>
+        <p>
+                The amount of images loaded in was 1305, doubled after augmentation would be 2610. This process could be continued, however, it takes a while for the masks to be created. General shapes before splitting into training, validation, and testing data follow these shapes; 
+                <br>
+                </br>
+                <strong>shape for images (2610, 224, 224, 3), shape for true steering: (2610,), shape for masks: (2610, 224, 224, 3). </strong>
+                <br></br>
+                Where true steering is the steering angle. 
+                <br></br>
+
+                Further preprocessing involved making two sets of data for the training of two different models. The data was shuffled while keep their relational indexes together and then seperated with scikits train test split. The data was split 80 20, with 10 percent being with held for validation. 
+
+        </p>
+        <h2>
+            <u>-Unlimited data, high computational and time cost-</u>
+        </h2>
+        <p>With how augmentation is set up it is possible to generate a very large data set with a small amount of data (like the project). The issue is that at some given point. (I would ballpark around 3 augmentation function calls) any given image may becoming to saturated on a certain augmentation technique. Meaning in the small chance that brightness 2.0 is applied before,
+        the picture will basically just be white. With the model performance below, I think the solution would be to collect more and better data while changing how the camera servo opperates to minimalize losing focus. </p>
 
             
                 
