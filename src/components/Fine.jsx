@@ -9,7 +9,7 @@ import Model4 from "../assets/model4_plot.png"
 import Mask1 from "../assets/modelMask1_plot.png"
 import Mask2 from "../assets/modelMask2_plot.png"
 
-const models = [Model1,Model2,Model3,Model4];
+const models = [Model1,Model2,Model3];
 const masks = [Mask1, Mask2];
 
 const Fine = () => {
