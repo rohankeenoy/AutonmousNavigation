@@ -5,6 +5,7 @@ import DataCollection from '../components/DataCollection'
 import MoreData from '../components/MoreData'
 import Fine from '../components/Fine'
 import Results from '../components/Results'
+import Conclusion from '../components/Conclusion'
 import '../components/styles.css'; 
 
 const Home = () => {
@@ -26,7 +27,8 @@ const Home = () => {
             <MoreData/>
             <Fine/>
             <Results/>
-            <h1>Conclusion</h1>
+            <Conclusion/>
+            
             <footer>
       Engineered by <a href="https://rohan-keenoy.web.app/" target="_blank" rel="noopener noreferrer">Rohan Keenoy</a></footer>
         </div>
