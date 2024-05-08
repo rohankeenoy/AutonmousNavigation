@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/auto-car/static/css/main.904ef8fb.css",
-    "main.js": "/auto-car/static/js/main.af9e5c8d.js",
+    "main.js": "/auto-car/static/js/main.5af4954d.js",
     "static/media/track1.jpg": "/auto-car/static/media/track1.eab776acd52e5bfa9953.jpg",
     "static/media/hardware_4.jpg": "/auto-car/static/media/hardware_4.48ab392da684cd9b150a.jpg",
     "static/media/hardware_5.jpg": "/auto-car/static/media/hardware_5.9fb358fa100ecb5cc8de.jpg",
@@ -10,6 +10,12 @@
     "static/media/hardware_1.jpg": "/auto-car/static/media/hardware_1.a7c0031da88c4df66f4c.jpg",
     "static/media/track2.jpg": "/auto-car/static/media/track2.e34afb3ff0b9d866640f.jpg",
     "static/media/track3.jpg": "/auto-car/static/media/track3.7da1e8a72ded1760a487.jpg",
+    "static/media/modelMask2_plot.png": "/auto-car/static/media/modelMask2_plot.9518260e643b22f3a629.png",
+    "static/media/model4_plot.png": "/auto-car/static/media/model4_plot.3d5098757c4adfddbf1b.png",
+    "static/media/model2_plot.png": "/auto-car/static/media/model2_plot.1bcc0d8794bbed7adac9.png",
+    "static/media/model3_plot.png": "/auto-car/static/media/model3_plot.7c8dc3ff4437bf739e73.png",
+    "static/media/modelMask1_plot.png": "/auto-car/static/media/modelMask1_plot.d75df6b87a125f928aa9.png",
+    "static/media/model1_plot.png": "/auto-car/static/media/model1_plot.1476b7543720da19c04a.png",
     "static/media/augBrighter.JPG": "/auto-car/static/media/augBrighter.fb8e35010703605338db.JPG",
     "static/media/augFlipped.JPG": "/auto-car/static/media/augFlipped.bd3bb698851d6dfb6b91.JPG",
     "static/media/aug_og.JPG": "/auto-car/static/media/aug_og.eef1c8d8627059559a93.JPG",
@@ -30,10 +36,10 @@
     "static/media/mask_1.JPG": "/auto-car/static/media/mask_1.0cf9e17489db370bf8ca.JPG",
     "index.html": "/auto-car/index.html",
     "main.904ef8fb.css.map": "/auto-car/static/css/main.904ef8fb.css.map",
-    "main.af9e5c8d.js.map": "/auto-car/static/js/main.af9e5c8d.js.map"
+    "main.5af4954d.js.map": "/auto-car/static/js/main.5af4954d.js.map"
   },
   "entrypoints": [
     "static/css/main.904ef8fb.css",
-    "static/js/main.af9e5c8d.js"
+    "static/js/main.5af4954d.js"
   ]
 }
