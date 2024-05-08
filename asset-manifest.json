@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/auto-car/static/css/main.904ef8fb.css",
-    "main.js": "/auto-car/static/js/main.bc38906a.js",
+    "main.js": "/auto-car/static/js/main.eb851240.js",
     "static/media/track1.jpg": "/auto-car/static/media/track1.eab776acd52e5bfa9953.jpg",
     "static/media/hardware_4.jpg": "/auto-car/static/media/hardware_4.48ab392da684cd9b150a.jpg",
     "static/media/hardware_5.jpg": "/auto-car/static/media/hardware_5.9fb358fa100ecb5cc8de.jpg",
@@ -51,10 +51,10 @@
     "static/media/mask_1.JPG": "/auto-car/static/media/mask_1.0cf9e17489db370bf8ca.JPG",
     "index.html": "/auto-car/index.html",
     "main.904ef8fb.css.map": "/auto-car/static/css/main.904ef8fb.css.map",
-    "main.bc38906a.js.map": "/auto-car/static/js/main.bc38906a.js.map"
+    "main.eb851240.js.map": "/auto-car/static/js/main.eb851240.js.map"
   },
   "entrypoints": [
     "static/css/main.904ef8fb.css",
-    "static/js/main.bc38906a.js"
+    "static/js/main.eb851240.js"
   ]
 }
